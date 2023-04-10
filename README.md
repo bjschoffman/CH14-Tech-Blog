@@ -3,22 +3,18 @@ Model-View-Controller (MVC) Challenge
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
+To build a CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well. You’ll build this site completely from scratch and deploy it to Heroku. Your app will follow the MVC paradigm in its architectural structure, using Handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication.
 
 
 ## Installation
+
 To run program:
 1. Run `npm i`
 2. Connect to MySQL
 3. `npm start`
 
 ## Usage
-Deployed application: 
+Deployed application: https://fierce-woodland-32181.herokuapp.com/
 
 ## Credits
 
