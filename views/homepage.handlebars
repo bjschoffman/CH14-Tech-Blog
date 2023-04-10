@@ -1,0 +1,14 @@
+   <!-- Loop over each object in the projects array -->
+<!-- {{#each entries as |entry| }} -->
+<div class="card text-left">
+    <div class="card-header">
+        <a href="/entry/{{entry.id}}">{{entry.name}}</a>
+    </div>
+    <div class="card-body">
+      <p class="card-title">{{entry.description}}</p>
+    </div>
+    <div class="card-footer text-body-secondary">
+        Created by {{entry.user.name}} on {{format_date entry.date_created}}
+    </div>
+  </div>
+  {{/each}}
